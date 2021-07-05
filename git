@@ -14,7 +14,9 @@ git config user.name \ visualizar
 
 git config --global credential.helper 'cache --timeout=28800' \ SALVA USUARIO E SENHA POR 8 HORAS
 
-git config --global credential.helper cache \ SALVA USUARIO E SENHA PERMANENTE
+git config --global credential.helper cache \ SALVA USUARIO E SENHA PERMANENTE em cache
+
+git config --global credential.helper store \ salva em store
 
 git config --list \ lista todas as configurações do git
 
