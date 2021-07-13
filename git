@@ -138,5 +138,20 @@ git reset --hard
 # '-f' is force, '-d' is remove directories.
 git clean -fd
 
+#show you what files and directories will be deleted
+git clean -d -n
+
+#Once you are sure you want to go ahead and delete the untracked files and directories, type:
+git clean -d -f
+
+#To interactively delete the untracked files, use the -i option:
+git clean -d -i
+
+#To remove the all ignored and untracked files, use the -x option:
+git clean -d -n -x
+
+
+
+
 
 
