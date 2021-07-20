@@ -150,8 +150,8 @@ git clean -d -i
 #To remove the all ignored and untracked files, use the -x option:
 git clean -d -n -x
 
+#To remove the all ignored and untracked files
+git clean -fdx 
 
-
-
-
-
+git checkout -- main.js ??
+git reset --hard 
