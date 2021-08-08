@@ -87,7 +87,7 @@ git branch -r \ mostra todas as branchs do repositorio remoto
 
 git branch -t [branch] [nome-repositorio-remoto/nome-branch-remota] \ copia a branch remota para o local, diz qual é a branch remota corresponde da que estamos criando, cria a branch local já ligado com o remoto
 
-git branch -a \ remoto e locais são mostradas
+git branch -a \ remoto e locais são mostradas So we can use the -a option to see all local and remote branches
 
 --------------------------------------------------------------------------------------
 
